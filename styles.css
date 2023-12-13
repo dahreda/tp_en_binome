@@ -1,0 +1,36 @@
+.tasks{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 5px solid purple;
+    border-radius: 5px;
+}
+
+
+
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding: 10px;
+}
+
+
+.task button{
+    padding: 5px 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.task .btn-1{
+    padding: 5px 8px;
+    color: white;
+    background-color: rgb(14, 71, 239);
+}
+
+.task .btn-delete{
+    color: white;
+    background-color: red;
+}
